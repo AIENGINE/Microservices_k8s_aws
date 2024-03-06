@@ -58,7 +58,7 @@ spec:
     spec:
       containers:
         - name: app-db
-          image: 749030154460.dkr.ecr.us-east-1.amazonaws.com/cd12355-db:latest
+          image: isjustintime/cd12355-db:0.0.1
           imagePullPolicy: "IfNotPresent"
           ports:
             - containerPort: 5432
